@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /framework
+title: /Фреймворк
 permalink: /framework/
 ---
 
