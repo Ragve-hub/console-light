@@ -1,6 +1,6 @@
 ---
 title:  "Dear morons..."
-date:   2018-11-04 12:32:45
+date:   2018-11-04
 ---
 
 # Dear morons...
