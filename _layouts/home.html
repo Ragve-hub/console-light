@@ -6,7 +6,6 @@ layout: default
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
-  <ul>
 
 <div class="tags-list">
   {% assign tags_sorted = site.tags | sort %}
@@ -16,6 +15,9 @@ layout: default
     </a>{% unless forloop.last %} {% endunless %}
   {% endfor %}
 </div>
+  <ul>
+
+
 
 
 
