@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /steps
+title: /Основные шаги
 permalink: /steps/
 ---
 
