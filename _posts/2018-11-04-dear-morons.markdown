@@ -1,6 +1,7 @@
 ---
 title:  "Dear morons..."
 date:   2018-11-04
+tags: [Голосования]
 ---
 
 # Dear morons...
