@@ -7,6 +7,18 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
   <ul>
+
+<div class="tags-list">
+  {% assign tags_sorted = site.tags | sort %}
+  {% for tag in tags_sorted %}
+    <a href="{{ '/tag/' | append: tag[0] | relative_url }}" class="tag-link">
+      #{{ tag[0] }}
+    </a>{% unless forloop.last %} {% endunless %}
+  {% endfor %}
+</div>
+
+
+
     
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
