@@ -8,9 +8,23 @@ layout: default
 {%- if site.posts.size > 0 -%}
   <ul>
     
-{% for post in site.posts %}
-  <p>[ {{ post.date | date: "%Y-%m-%d" }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+{% for year_group in posts_by_year %}
+  <h2>{{ year_group.name }}</h2>
+  {% for post in year_group.items %}
+    {% assign first_tag = post.tags | first %}
+    <p>
+      {% if first_tag %}
+        #{{ first_tag }}
+      {% else %}
+        #без_тега
+      {% endif %}
+      {{ post.title }}
+    </p>
+  {% endfor %}
 {% endfor %}
+
 
 
   
