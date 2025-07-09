@@ -11,16 +11,21 @@ layout: default
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
 {% for year_group in posts_by_year %}
-{{ year_group.name }}
-{% for post in year_group.items %}
-  {% assign first_tag = post.tags | first %}
-  {% if first_tag %}
-#<a href="{{ '/tags/' | append: first_tag | append: '/' | relative_url }}">{{ first_tag }}</a> {{ post.title }}
-  {% else %}
-#без_тега {{ post.title }}
-  {% endif %}
+  <h2>{{ year_group.name }}</h2>
+  {% for post in year_group.items %}
+    {% assign first_tag = post.tags | first %}
+    <p>
+      {% if first_tag %}
+        #<a href="{{ '/tags/' | append: first_tag | append: '/' | relative_url }}">{{ first_tag }}</a>
+      {% else %}
+        #без_тега
+      {% endif %}
+      {{ post.title }}
+    </p>
+  {% endfor %}
 {% endfor %}
-{% endfor %}
+
+
 
 
 
