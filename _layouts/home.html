@@ -13,12 +13,12 @@ layout: default
 {% for year_group in posts_by_year %}
 {{ year_group.name }}
 {% for post in year_group.items %}
-{% assign first_tag = post.tags | first %}
-{% if first_tag %}
-#{{ first_tag }} {{ post.title }}
-{% else %}
+  {% assign first_tag = post.tags | first %}
+  {% if first_tag %}
+#<a href="{{ '/tags/' | append: first_tag | append: '/' | relative_url }}">{{ first_tag }}</a> {{ post.title }}
+  {% else %}
 #без_тега {{ post.title }}
-{% endif %}
+  {% endif %}
 {% endfor %}
 {% endfor %}
 
