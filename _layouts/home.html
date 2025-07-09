@@ -14,7 +14,7 @@ layout: default
 {% assign sorted_years = posts_by_year | map: "name" | sort | reverse %}
 
 {% for year in sorted_years %}
-{{ year }}<br>
+<strong>{{ year }}</strong><br>
 {% assign year_group = posts_by_year | where: "name", year | first %}
 {% for post in year_group.items %}
 <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
