@@ -17,7 +17,7 @@ layout: default
 {{ year }}<br>
 {% assign year_group = posts_by_year | where: "name", year | first %}
 {% for post in year_group.items %}
-• <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+<a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
 {% endfor %}
 <br>
 {% endfor %}
