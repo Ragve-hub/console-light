@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /Результаты работы
+title: /Результаты
 permalink: /result/
 ---
 
