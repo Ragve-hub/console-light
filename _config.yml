@@ -2,7 +2,7 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
+header_pages:
   - index.md
   - about.md
 
@@ -13,3 +13,7 @@ style: light
 
 plugins:
   - jekyll-seo-tag
+  
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
