@@ -12,22 +12,22 @@ layout: default
 
 
 
-  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% assign sorted_years = posts_by_year | map: "name" | sort | reverse %}
 
 {% for year in sorted_years %}
-{{ year_group.name }}
+{{ year }}
 {% assign year_group = posts_by_year | where: "name", year | first %}
 {% for post in year_group.items %}
-{% assign first_tag = post.tags | first %}
-{% if first_tag %}
-• #{{ first_tag }} {{ post.title }}
-{% else %}
-• #без_тега {{ post.title }}
-{% endif %}
+  {% assign first_tag = post.tags | first %}
+  {% if first_tag %}
+• #{{ first_tag }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  {% else %}
+• #без_тега <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  {% endif %}
 {% endfor %}
 {% endfor %}
+
 
 
 
