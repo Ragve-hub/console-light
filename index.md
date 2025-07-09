@@ -12,3 +12,7 @@ permalink: /
 # Welcome
 
 Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+
+
+  * [#Голосования](/tags/голосования) [<u>Какой UI должен быть у современного текстового редактора или IDE</u>](https://example.com)
+ 
