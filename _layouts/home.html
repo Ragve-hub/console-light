@@ -4,34 +4,14 @@ layout: default
 
 {{ content }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+
 {%- if site.posts.size > 0 -%}
   <ul>
-
-
-
-{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-{% assign sorted_years = posts_by_year | map: "name" | sort | reverse %}
-
-{% for year in sorted_years %}
-<strong>{{ year }}</strong><br>
-{% assign year_group = posts_by_year | where: "name", year | first %}
-{% for post in year_group.items %}
-<a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
-{% endfor %}
-<br>
-{% endfor %}
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
   </ul>
 {%- endif -%}
