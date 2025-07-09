@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /Об услуге
+title: /Substack
 permalink: /about/
 ---
 
