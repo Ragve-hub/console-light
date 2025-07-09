@@ -1,6 +1,6 @@
 ---
 layout: page
-title: /usloviya
+title: /Условия работы
 permalink: /usloviya/
 ---
 
