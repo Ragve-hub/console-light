@@ -8,19 +8,22 @@ layout: default
 {%- if site.posts.size > 0 -%}
   <ul>
     
-{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" | reverse %}
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
-{% for year_group in posts_by_year %}
-{{ year_group.name }}<br>
-{% for post in year_group.items %}
-  {% assign first_tag = post.tags | first %}
-  {% if first_tag %}
+{% assign sorted_years = posts_by_year | map: "name" | sort | reverse %}
+
+{% for year in sorted_years %}
+  {% assign year_group = posts_by_year | where: "name", year | first %}
+  {{ year_group.name }}<br>
+  {% for post in year_group.items %}
+    {% assign first_tag = post.tags | first %}
+    {% if first_tag %}
 #<a href="{{ '/tags/' | append: first_tag | uri_escape | append: '/' | relative_url }}">{{ first_tag }}</a> <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
-  {% else %}
+    {% else %}
 #без_тега <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
-  {% endif %}
-{% endfor %}
-<br>
+    {% endif %}
+  {% endfor %}
+  <br>
 {% endfor %}
 
 
