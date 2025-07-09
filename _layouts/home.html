@@ -18,7 +18,7 @@ layout: default
   {% for post in year_group.items %}
     {% assign first_tag = post.tags | first %}
     {% if first_tag %}
-• #<a href="{{ '/tags/' | append: first_tag | uri_escape | append: '/' | relative_url }}">{{ first_tag }}</a> <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+• #<a href="{{ '/tags/' | append: first_tag | uri_escape | append: '/' | relative_url }}" style="color: orange;">{{ first_tag }}</a> <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
     {% else %}
 • #без_тега <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
     {% endif %}
