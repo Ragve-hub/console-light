@@ -1,3 +1,9 @@
+title: 'ragve-hub.github.io'
+description: "A jekyll theme inspired by linux consoles for hackers, developers and script kiddies."
+baseurl: "/jekyll-theme-console-demo-light"
+url: "https://ragve-hub.github.io"
+
+
 # Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
