@@ -4,10 +4,7 @@
 
 header_pages:
   - index.md
-  - result.md
-  - usloviya.md
-  - steps.md
-  - framework.md
+  - about.md
   - contact.md
 
 footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
