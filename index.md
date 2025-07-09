@@ -4,10 +4,10 @@ layout: home
 permalink: /
 ---
 
-# Other Demo Pages
+# Добро пожаловать
 
-[Dark](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) [Hacker](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
+Владельцам частных капиталов и семейных офисов мы предлагаем инвестиционные решения на базе алгоритмического фонда.
 
-# Welcome
+# Доверительное управление
 
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+[Об услуге](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) [Результаты](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) [Условия работы](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) [Основные шаги](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) [Алгоритмическая структура](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
