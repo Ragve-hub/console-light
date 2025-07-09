@@ -16,17 +16,19 @@ layout: default
 {% assign sorted_years = posts_by_year | map: "name" | sort | reverse %}
 
 {% for year in sorted_years %}
-{{ year }}
+{{ year }}<br>
 {% assign year_group = posts_by_year | where: "name", year | first %}
 {% for post in year_group.items %}
   {% assign first_tag = post.tags | first %}
   {% if first_tag %}
-• #{{ first_tag }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+• #{{ first_tag }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
   {% else %}
-• #без_тега <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+• #без_тега <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
   {% endif %}
 {% endfor %}
+<br>
 {% endfor %}
+
 
 
 
