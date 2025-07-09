@@ -1,6 +1,6 @@
 ---
-title:  "Dear morons2..."
-date:   2019-11-04
+title:  "Dear morons1_1..."
+date:   2019-12-04
 tags: [Голосования]
 ---
 
