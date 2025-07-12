@@ -12,6 +12,12 @@ footer: 'Пишите на <a href="https://twitter.com/">почту</a>'
 style: light
 #listen_for_clients_preferred_style: true # true or false (default)
 
+# _config.yml search
+collections:
+  posts:
+    output: true
+
+
 plugins:
   - jekyll-seo-tag
   
