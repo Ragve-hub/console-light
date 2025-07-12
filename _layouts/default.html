@@ -16,7 +16,12 @@
     </main>
 
     {%- include footer.html -%}
-      
+
+
+      {% if page.layout == "post" %}
+    <p>
+      <a href="{{ "/feed.xml" | relative_url }}">Подписаться на RSS</a>
+    </p>
       
   {% endif %}
 
