@@ -2,17 +2,4 @@
 layout: default
 ---
 
-<article class="post-content">
-  {{ content }}
-</article>
-
-<nav class="post-navigation" style="margin-top: 2em; border-top: 1px solid #ddd; padding-top: 1em;">
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="prev-post" style="float: left;">← Предыдущий: {{ page.previous.title }}</a>
-  {% endif %}
-
-  {% if page.next %}
-    <a href="{{ page.next.url }}" class="next-post" style="float: right;">Следующий: {{ page.next.title }} →</a>
-  {% endif %}
-  <div style="clear: both;"></div>
-</nav>
+{{ content }}
