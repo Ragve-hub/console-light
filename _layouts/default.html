@@ -15,7 +15,9 @@
       {{ content }}
     </main>
 
-    {%- include footer.html -%}
+    {%- unless page.layout == "post" -%}
+      {%- include footer.html -%}
+    {%- endunless -%}
 
     </div>
   </body>
