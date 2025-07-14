@@ -35,18 +35,19 @@ permalink: /tags/
     </svg>
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
-    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
-      <div>
-        <span class="tags-post-title">{{ post.title }}</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="{{ post.date }}">
-          {{ post.date | date:"%Y-%m-%d" }}
-        </time>
-      </span>
-    </a>
-    {% endfor %}
+   
+  <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+  <div>
+    <span class="tags-post-title">{{ post.title }}</span>
+    <div class="tags-post-line"></div>
+  </div>
+  <span class="tags-post-meta">
+    <time datetime="{{ post.date }}">
+      {{ post.date | date:"%Y-%m-%d" }}
+    </time>
+  </span>
+</a>
+
   </div>
   {% endfor %}
 </div>
