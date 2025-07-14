@@ -4,12 +4,29 @@ title: /Условия работы
 permalink: /usloviya/
 ---
 
-# jekyll-theme-console
+## Условия:
 
-A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
-You can find the source code for this theme at [github.com/b2a3e8/jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console).
+Минимальная сумма для инвестиций – 5 млн. рублей
 
-## What is jekyll?
+Отчетный период – календарный квартал.
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under an open source license.
-<br />Instead of using databases, Jekyll takes the content, renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served by Apache HTTP Server, Nginx or another web server. Jekyll is the engine behind GitHub Pages, a GitHub feature that allows users to host websites based on their GitHub repositories for no additional cost.
+## Вознаграждение:
+
+High Watermark — Да
+
+Плата за успех — 20 %
+
+## Безопасность:
+
+В целях безопасности наши сервера расположены в Москве, в ЦОД DataSpace – объекте премиум класса, с
+сертификатами TIER III. Такое размещение позволяет минимизировать технологические риски и убытки, связанные с
+отключением электричества, интернета, поломкой компьютерного оборудования, неустойчивой работы терминалов и
+бирж.
+
+Услуги прямого подключения (DMA) в рамках ultra low-latency решений к бирже оплачивает инвестор.
+
+Юридически оформляется договор услуг, со всеми приложениями.
+
+## Гарантии и дополнительные условия:
+
+Обсуждаются индивидуально
