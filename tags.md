@@ -1,5 +1,4 @@
 ---
-layout: page
 title: /Теги
 permalink: /tags/
 ---
