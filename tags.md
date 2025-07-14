@@ -10,27 +10,20 @@ permalink: /tags/
   </div>
   <div class="tags-clouds">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+      <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
     {% endfor %}
   </div>
   {% for tag in site.tags %}
   <div class="tags-item" id="{{ tag[0] }}">
     
-      <path
-        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-      ></path>
-      <line x1="7" y1="7" x2="7.01" y2="7"></line>
+    <path
+      d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+    ></path>
+    <line x1="7" y1="7" x2="7.01" y2="7"></line>
     
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
-   
- <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
-   <div>
-        <span class="tags-post-title">{{ post.title }}</span>
-        <div class="tags-post-line"></div>
-      </div>
-      
-    </a>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     {% endfor %}
   </div>
   {% endfor %}
