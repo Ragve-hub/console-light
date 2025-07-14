@@ -10,7 +10,7 @@ permalink: /
 
 # Доверительное управление
 
-[Результаты](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) 
-[Условия работы](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) 
-[Основные шаги](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) 
-[Алгоритмическая структура](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
+[Результаты](https://ragve-hub.github.io/console-light/result) 
+[Условия работы](https://ragve-hub.github.io/console-light/usloviya) 
+[Основные шаги](https://ragve-hub.github.io/console-light/steps) 
+[Алгоритмическая структура](https://ragve-hub.github.io/console-light/framework)
