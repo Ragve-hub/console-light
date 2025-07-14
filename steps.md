@@ -4,12 +4,20 @@ title: /Основные шаги
 permalink: /steps/
 ---
 
-# jekyll-theme-console
+## Для начала работы инвестору необходимо:
 
-A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
-You can find the source code for this theme at [github.com/b2a3e8/jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console).
+1. Определить для себя критический уровень риска или долю капитала, которую инвестор готов потерять.
+Рекомендуемое значение от 10 до 15% от первоначального капитала.
 
-## What is jekyll?
+2. Открыть брокерский счет с доступом ко всем возможным площадкам, в любом банке/инвестиционной
+компании. Оплатить доступ к DMA.
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under an open source license.
-<br />Instead of using databases, Jekyll takes the content, renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served by Apache HTTP Server, Nginx or another web server. Jekyll is the engine behind GitHub Pages, a GitHub feature that allows users to host websites based on their GitHub repositories for no additional cost.
+3. Пополнить брокерский счет денежными средствами.
+   
+4. Подписать договор управления, и передать техническую информацию.
+   
+5. Получать, и подписывать отчеты.
+  
+6. По окончании срока договора заплатить налог с прибыли. Выплатить вознаграждение доверительному управляющему.
+
+7. Вывести прибыль/ довнести деньги на счет. 
