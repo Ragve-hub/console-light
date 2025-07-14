@@ -24,6 +24,7 @@ permalink: /tags/
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     {% for post in tag[1] %}
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <br>
     {% endfor %}
   </div>
   {% endfor %}
