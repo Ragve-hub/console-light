@@ -37,7 +37,8 @@ permalink: /tags/
     {% for post in tag[1] %}
    
  <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
-      <div>
+   style="background-color: black; color: white;">  
+   <div>
         <span class="tags-post-title">{{ post.title }}</span>
         <div class="tags-post-line"></div>
       </div>
