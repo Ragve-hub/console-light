@@ -4,12 +4,35 @@ title: /Результаты
 permalink: /result/
 ---
 
-# jekyll-theme-console
+Наши стратегии реализованы в наиболее ликвидном формате — индивидуально управляемых счетах (separated managed accounts, SMA) в ведущих российских банках.
 
-A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
-You can find the source code for this theme at [github.com/b2a3e8/jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console).
+<img src="https://ragve-hub.github.io/images/eqt_41.png" alt="Доходность по месяцам">
 
-## What is jekyll?
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under an open source license.
-<br />Instead of using databases, Jekyll takes the content, renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served by Apache HTTP Server, Nginx or another web server. Jekyll is the engine behind GitHub Pages, a GitHub feature that allows users to host websites based on their GitHub repositories for no additional cost.
+## Характеристика:
+
+Cтратегии направлены на решение одной из двух задач: повышении доходности инвестиционного портфеля при заданном уровне риска или уменьшении волатильности портфеля при сохранении целевой доходности.
+
+Стратегия предполагает инвестирование в инструменты фондового и срочного рынка, обращающиеся на Московской бирже, и номинированные в рублях.
+
+## Принципы управления:
+
+Портфель не имеет предпочтений для «длинной» или «короткой» стороны: большая часть алгоритмов может торговать симметрично.
+
+
+## Методология:
+
+Портфель состоит из широкого множества некоррелированных и, преимущественно, краткосрочных алгоритмов , торгующих на разных инструментах. Основная часть алгоритмов портфеля может быть классифицирована как краткосрочные и среднесрочные паттерновые системы. Аллокация для различных систем регулярно пересматривается и может изменяться.
+ 
+## Описание:
+
+Средняя историческая доходность — от 30% годовых.
+
+Допустимый риск портфеля — 15%.
+
+Инвестиционный горизонт — 1 год.
+
+Инвестиционный профиль: Сбалансированный.
+
+## Прочее
+В целях соблюдения конфиденциальности, мы оставляем за собой право не публиковать в сети брокерские отчеты и банковские выписки. Вся информация предоставляется по запросу.
