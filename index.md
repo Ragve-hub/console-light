@@ -12,5 +12,5 @@ permalink: /
 
 [Результаты](https://ragve-hub.github.io/console-light/result) 
 [Условия работы](https://ragve-hub.github.io/console-light/usloviya) 
-[Основные шаги](https://ragve-hub.github.io/console-light/steps) 
-[Алгоритмическая структура](https://ragve-hub.github.io/console-light/framework)
+[Основные шаги](https://ragve-hub.github.io/console-light/steps)
+
