@@ -13,5 +13,3 @@ permalink: /
 [Результаты](https://ragve-hub.github.io/console-light/result) 
 [Условия работы](https://ragve-hub.github.io/console-light/usloviya) 
 [Основные шаги](https://ragve-hub.github.io/console-light/steps)
-
-Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.
