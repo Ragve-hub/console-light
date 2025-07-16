@@ -26,7 +26,7 @@ tags: [Рекомендации]
 *   [Thierry Post](http://www.bangor.ac.uk/business/staff/theirry_post.php.en) ([Bangor University](http://www.bangor.ac.uk/)): [publications](http://www.bangor.ac.uk/business/staff/theirry_post.php.en)
 *   Pim van Vliet, [Erasmus School of Economics](http://www.eur.nl/ese) ([Robeco](http://www.robeco.com)): [publications](http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=296465)
 
-— **Behavioral Finance** 
+— **Behavioral Finance**
 
 *   [Kent Daniel](http://www.columbia.edu/~kd2371/) ([Columbia](http://www.cfm.fr), formerly GSAM): [publications](http://www.columbia.edu/~kd2371/#Publications)
 *   [Harrison Hong](http://www.princeton.edu/~hhong/) ([Princeton](http://www.princeton.edu)): [publications](http://www.princeton.edu/~hhong/)
