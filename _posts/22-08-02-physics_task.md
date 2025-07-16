@@ -80,22 +80,16 @@ tags: [Рекомендации]
 # В дополнение к решениям, которые были в центре нашего внимания, эксперты добровольно предложили общие области общих навыков, которые они рассматривали как важные элементы опыта в своих областях.
 
 - Оставайтесь в курсе событий в этой области, изучая соответствующие новые знания, идеи и технологии из литературы, конференций и коллег.
-
 - Развивайте интуицию и опыт для улучшения решения проблем.
-
 - Улучшите навыки межличностного общения и командной работы, например, как ориентироваться в совместной работе, управлять командой и укреплять общение, особенно когда они применяются в контексте различных процессов решения проблем.
-
 - Повысьте свою эффективность, практикуя управление временем, включая обучение эффективному и точному выполнению определенных общих задач.
-
 - Культивируйте отношение или мотивацию, которая включает в себя настойчивость в задаче, несмотря на препятствия, борьбу со стрессом и уверенность в решениях.
-
 - Чтобы стать высококвалифицированным физиком, необходимо развивать эти общие навыки и учиться хорошо принимать решения.
 
 
 # Самое важное и сложное требуется , чтобы студенты изучили свое собственное мышление, которое является сложным по трем причинам.
 
 - Во-первых, иметь такой взгляд на собственное мышление просто сложно. Обсуждение идей с другими может помочь.
-
 - Во-вторых, хороший физик, как правило, поглощен непосредственной задачей работы — например, как улучшить вакуум,
 как уменьшить джиттер в триггере детектора или как создать более быстрый код для оценки этого сложного интеграла. 
 
@@ -113,27 +107,11 @@ tags: [Рекомендации]
 
 
 * <a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363">The role of deliberate practice in the acquisition of expert performance</a>
-
-
 * <a href="https://scholar.google.com/scholar_lookup?hl=en&publication_year=1957&author=G.+Polya&title=How+to+Solve+It%3A+A+New+Aspect+of+Mathematical+Method">How to solve it: A new aspect of mathematical method</a>
-
-
 * <a href="https://www.lifescied.org/doi/10.1187/cbe.20-12-0276">A Detailed Characterization of the Expert Problem-Solving Process in Science and Engineering: Guidance for Teaching and Assessment</a>
-
-
 * <a href="https://www.science.org/doi/10.1126/science.1201783">Improved Learning in a Large-Enrollment Physics Class</a>
-
-
 * <a href="https://journals.aps.org/prper/abstract/10.1103/PhysRevSTPER.11.020108">Transforming a fourth year modern optics course using a deliberate practice framework</a>
-
-
 * <a href="https://www.sciencedirect.com/science/article/abs/pii/S1749772820300579?via%3Dihub">Evaluating the problem-solving skills of graduating chemical engineering students</a>
-
-
 * <a href="https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes.16.010109">Developing scientific decision making by structuring and supporting student agency</a>
-
-
 * <a href="https://scholar.google.com/scholar?hl=en&q=G.+P.+Lepage%2C+Am.+J.+Phys.+89%2C+317+%282021%29.+10.1119%2F10.0002349">Active learning in a graduate quantum field theory course</a>
-
-
 * <a href="https://www.tandfonline.com/doi/abs/10.1207/s1532690xci2202_1">Inventing to Prepare for Future Learning: The Hidden Efficiency of Encouraging Original Student Production in Statistics Instruction</a>
