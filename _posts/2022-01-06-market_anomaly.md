@@ -7,7 +7,7 @@ tags: [Рекомендации]
 С 93 года многие трейдеры заметили, что американские акции имеют значительно более высокую доходность 
 во время ночной сессии по сравнению с дневной.
 
- <img src="/images/movernight.png" alt="">
+ <img src="https://ragve-hub.github.io/console-light/images/movernight.png" alt="">
 
  Это явление называется ночной аномалией и описано в Gulen in “Return Differences between Trading and Non-Trading Hours: Like Night and Day” by Cooper, Cliff and in “Overnight Return, the Invisible Hand Behind The Intraday Return? A Retrospective” by Branch and Ma. 
 
