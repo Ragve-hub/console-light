@@ -10,7 +10,7 @@ tags: [Рекомендации]
 
 
 # Доходность стратегий. Сортировка по ключевым словам
-<img src="https://ragve.ru/images/academic_perfomance.png" alt="">
+<img src="https://ragve-hub.github.io/console-light/images/academic_perfomance.png" alt="">
 
 
 # Инструменты и период ребалансировки
