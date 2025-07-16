@@ -17,8 +17,8 @@ tags: [Рекомендации]
 
 * Anchada Charoenrook in “Does Sentiment Matter?
 * Making Money While You Sleep? Anomalies in International Day
-* Night Returns by Aretz and Bartram and “Strikingly Suspicious Overnight and Intraday Returns by Knuteson
-
+* Night Returns by Aretz and Bartram and “Strikingly Suspicious Overnight
+* Intraday Returns by Knuteson
 
 Объяснения можно найти анализируя практику алгоритмической торговли хедж-фондов и других финансовых учреждений.
 
