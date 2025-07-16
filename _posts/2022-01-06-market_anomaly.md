@@ -16,9 +16,7 @@ tags: [Рекомендации]
 Подробнее можно почитать:
 
 * Anchada Charoenrook in “Does Sentiment Matter?
-
 * Making Money While You Sleep? Anomalies in International Day
-
 * Night Returns by Aretz and Bartram and “Strikingly Suspicious Overnight and Intraday Returns by Knuteson
 
 
