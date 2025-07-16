@@ -18,6 +18,7 @@ tags: [Рекомендации]
 
 * <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2129474"> Building Trading Models with the 10 Year CAPE</a>
 
+
 # Еще можно почитать:
 
 
