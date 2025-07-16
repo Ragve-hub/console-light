@@ -1,27 +1,19 @@
 ---
-layout: post
-title: Рыночный сентимент и аномалии
-date: 2022-01-06 9:06:52
-tags: Рекомендации
-excerpt_separator: <!--more-->
-hidden: true
-
+title:  "Рыночный сентимент и аномалии"
+date:   2022-01-06
+tags: [Рекомендации]
 ---
 
 С 93 года многие трейдеры заметили, что американские акции имеют значительно более высокую доходность 
 во время ночной сессии по сравнению с дневной.
 
-<!--more-->
-
- <img src="https://ragve.ru/images/movernight.png" alt="">
+ <img src="/images/movernight.png" alt="">
 
  Это явление называется ночной аномалией и описано в Gulen in “Return Differences between Trading and 
 Non-Trading Hours: Like Night and Day” by Cooper, Cliff and in “Overnight Return, the Invisible Hand 
 Behind The Intraday Return? A Retrospective” by Branch and Ma. 
 
- Настроение рынка относится к общему настроению на финансовых рынках и общему
-склонность инвесторов к торговле. Настроение рынка, иногда называемое инвестором
-настроения, различают два основных типа: бычий и медвежий.
+ Настроение рынка относится к общему настроению на финансовых рынках и общему склонность инвесторов к торговле. Настроение рынка, иногда называемое инвестором настроения, различают два основных типа: бычий и медвежий.
 
 Подробнее можно почитать:
 
@@ -29,11 +21,9 @@ Behind The Intraday Return? A Retrospective” by Branch and Ma.
 
 * “Making Money While You Sleep? Anomalies in International Day
 
-* Night Returns” by Aretz and Bartram and “Strikingly Suspicious Overnight and 
-Intraday Returns” by Knuteson
+* Night Returns” by Aretz and Bartram and “Strikingly Suspicious Overnight and Intraday Returns” by Knuteson
 
 
 Объяснения можно найти анализируя практику алгоритмической торговли хедж-фондов и других финансовых учреждений.
 
 * Domowitz and Yegerman (2005) and Yang and Borkovec (2005)
-
