@@ -1,5 +1,5 @@
 ---
-title: /contact
+title: /Github
 layout: page
 permalink: /contact
 ---
