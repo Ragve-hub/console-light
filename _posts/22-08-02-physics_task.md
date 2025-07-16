@@ -113,11 +113,27 @@ tags: [Рекомендации]
 
 
 * <a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-295X.100.3.363">The role of deliberate practice in the acquisition of expert performance</a>
+
+
 * <a href="https://scholar.google.com/scholar_lookup?hl=en&publication_year=1957&author=G.+Polya&title=How+to+Solve+It%3A+A+New+Aspect+of+Mathematical+Method">How to solve it: A new aspect of mathematical method</a>
+
+
 * <a href="https://www.lifescied.org/doi/10.1187/cbe.20-12-0276">A Detailed Characterization of the Expert Problem-Solving Process in Science and Engineering: Guidance for Teaching and Assessment</a>
+
+
 * <a href="https://www.science.org/doi/10.1126/science.1201783">Improved Learning in a Large-Enrollment Physics Class</a>
+
+
 * <a href="https://journals.aps.org/prper/abstract/10.1103/PhysRevSTPER.11.020108">Transforming a fourth year modern optics course using a deliberate practice framework</a>
+
+
 * <a href="https://www.sciencedirect.com/science/article/abs/pii/S1749772820300579?via%3Dihub">Evaluating the problem-solving skills of graduating chemical engineering students</a>
+
+
 * <a href="https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes.16.010109">Developing scientific decision making by structuring and supporting student agency</a>
+
+
 * <a href="https://scholar.google.com/scholar?hl=en&q=G.+P.+Lepage%2C+Am.+J.+Phys.+89%2C+317+%282021%29.+10.1119%2F10.0002349">Active learning in a graduate quantum field theory course</a>
+
+
 * <a href="https://www.tandfonline.com/doi/abs/10.1207/s1532690xci2202_1">Inventing to Prepare for Future Learning: The Hidden Efficiency of Encouraging Original Student Production in Statistics Instruction</a>
