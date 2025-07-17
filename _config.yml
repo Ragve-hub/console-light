@@ -6,8 +6,7 @@ header_pages:
   - index.md
   - knowledge.md
   - develop.md 
-  - about.md
-  - contact.md
+  
 
 footer: 'Пишите на <a href="https://twitter.com/">почту</a>'
 
