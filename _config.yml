@@ -8,7 +8,7 @@ header_pages:
   - develop.md 
   
 
-footer: 'Подписывайтесь на <a href="https://twitter.com/">Substack</a> <a href="https://twitter.com/">Substack</a>'
+footer: 'Подписывайтесь на <a href="https://twitter.com/">Boosty</a> <a href="https://twitter.com/">Substack</a>'
 
 style: light
 #listen_for_clients_preferred_style: true # true or false (default)
