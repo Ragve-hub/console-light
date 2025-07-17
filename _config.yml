@@ -4,6 +4,8 @@
 
 header_pages:
   - index.md
+  - knowledge.md
+  - develop.md 
   - about.md
   - contact.md
 
