@@ -10,7 +10,7 @@ tags: [C#]
 
 1)
 
-```C#
+```c#
 
 using System;
 using System.IO;
