@@ -8,11 +8,15 @@ permalink: /tags/
     <h2 class="tags-header-title">{{ page.title }}</h2>
     <div class="tags-header-line"></div>
   </div>
+ 
   <div class="tags-clouds">
     {% for tag in site.tags %}
+     {% unless tag[0] == "code" %}
       <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
-    {% endfor %}
-  </div>
+    {% endunless %}
+  {% endfor %}
+</div>
+
 <br><br>
 Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.
 
