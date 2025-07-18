@@ -1,17 +1,14 @@
 ---
-layout: post
-title: Импорт данных в Quantbase
-date: 2021-10-01 08:06:52
-tags: C#
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Импорт данных в Quantbase"
+date:   2021-10-01
+tags: [C#]
 ---
+
 
 Загрузить и сохранить данные в QuantBase можно следующим скриптом:
 
-<!--more-->
 
-```
+```c#
 
 using System;
 using OpenQuant.API;
