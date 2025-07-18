@@ -1,19 +1,16 @@
 ---
-layout: post
-title: Построение баров из trades
-date: 2021-12-19 20:06:52
-tags: C#
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Построение баров из trades"
+date:   2021-12-19
+tags: [C#]
 ---
+
 
 Создание собственных баров дает вам возможность применять настраиваемую фильтрацию. 
 
 Функция как альтернатива втроенной (BuildBarsFromTrades).
 
-<!--more-->
 
-```
+```C#
 
 using System;
 using System.Drawing;
