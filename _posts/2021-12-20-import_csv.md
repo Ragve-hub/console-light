@@ -1,19 +1,16 @@
 ---
-layout: post
-title: Импорт данных из csv файла
-date: 2021-12-20 20:06:52
-tags: C#
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Импорт данных из csv файла"
+date:   2021-12-20
+tags: [C#]
 ---
+
 
 Несколько вариантов импорта внешних данных из файла csv на примере сценария
 
-<!--more-->
 
 1)
 
-```
+```C#
 
 using System;
 using System.IO;
@@ -111,7 +108,7 @@ public class MyScript : Script
 ```
 2)
 
-```
+```C#
 
 using System;
 using System.IO;
