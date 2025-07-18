@@ -1,17 +1,16 @@
 ---
-layout: post
-title: Анализ данных за разные периоды времени
-date: 2021-09-29 15:06:52
-tags: C#
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Анализ данных за разные периоды времени"
+date:   2021-09-29
+tags: [C#]
 ---
 
+
+
 Пример простой стратегии, которая работает с разными таймфреймами (бары 100 и 200 секунд), сериями баров и индикаторами.
-<!--more-->
 
 
-```
+```c#
+
 using System;
 using System.Drawing;
 
@@ -52,4 +51,4 @@ public class MyStrategy : Strategy
 }
 
 ```
-<!--more-->
+
