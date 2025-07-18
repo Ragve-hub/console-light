@@ -4,13 +4,37 @@ layout: page
 permalink: /Develop
 ---
 
-# Get in touch?
+<div class="tags">
+  <div class="tags-header">
+    <h2 class="tags-header-title">{{ page.title }}</h2>
+    <div class="tags-header-line"></div>
+  </div>
 
-<form>
-  <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">
-  <input type="text" id="email" name="email" placeholder="email:" autocomplete="off">
-  <textarea rows="5" id="message" name="message" placeholder="message:" autocomplete="off"></textarea>
-  <input type="submit" value="[ submit ]">
-</form>
+  {% assign selected_tags = "R,C#" | split: "," %}
 
-<br /><br />(This is a demo site, the form doesn't work - If you want to implement a form on your site, you need an external service)
+  <div class="tags-clouds">
+    {% for tag in site.tags %}
+      {% if selected_tags contains tag[0] %}
+        <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <br><br>
+  Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.
+
+  {% assign date_format = "%Y-%m-%d" %}
+  {% for tag in site.tags %}
+    {% if selected_tags contains tag[0] %}
+      <div class="tags-item" id="{{ tag[0] }}">
+        <h2 class="tags-item-label">{{ tag[0] }}</h2>
+        {% for post in tag[1] %}
+          <div>
+            <time datetime="{{ post.date | date: date_format }}">[{{ post.date | date: date_format }}]</time>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
