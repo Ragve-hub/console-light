@@ -22,18 +22,18 @@ permalink: /tags/
 <br><br>
 Контент содержит численные исследования финансового и экономического характера, проливающие свет на закономерности поведения биржевых цен в различных временных масштабах.
 
-
-  {% assign date_format = "%Y-%m-%d" %}
-  {% for tag in site.tags %}
-  <div class="tags-item" id="{{ tag[0] }}">
-    
-    <h2 class="tags-item-label">{{ tag[0] }}</h2>
-    {% for post in tag[1] %}
-      <div>
-        <time datetime="{{ post.date | date: date_format }}">[{{ post.date | date: date_format }}]</time>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </div>
-    {% endfor %}
-  </div>
-  {% endfor %}
+{% assign date_format = "%Y-%m-%d" %}
+{% for tag in site.tags %}
+  {% unless excluded_tags contains tag[0] %}
+    <div class="tags-item" id="{{ tag[0] }}">
+      <h2 class="tags-item-label">{{ tag[0] }}</h2>
+      {% for post in tag[1] %}
+        <div>
+          <time datetime="{{ post.date | date: date_format }}">[{{ post.date | date: date_format }}]</time>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endunless %}
+{% endfor %}
 </div>
