@@ -9,9 +9,11 @@ permalink: /tags/
     <div class="tags-header-line"></div>
   </div>
  
-  <div class="tags-clouds">
-    {% for tag in site.tags %}
-     {% unless tag[0] == "code" %}
+{% assign excluded_tags = "R,C#" | split: "," %}
+
+<div class="tags-clouds">
+  {% for tag in site.tags %}
+    {% unless excluded_tags contains tag[0] %}
       <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
     {% endunless %}
   {% endfor %}
