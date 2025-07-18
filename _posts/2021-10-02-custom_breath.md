@@ -4,12 +4,11 @@ date:   2021-10-02
 tags: [C#]
 ---
 
-Фрагмент кода, который вычисляет и рисует среднее значение цен закрытия MSFT и AAPL. Таким образом
-можно составлять свои графики advance/decline line, tick, new high, breadth.
+Фрагмент кода, который вычисляет и рисует среднее значение цен закрытия MSFT и AAPL. Таким образом можно составлять свои графики advance/decline line, tick, new high, breadth.
 
 
 
-```C#
+```c#
 
 using System;
 using System.Drawing;
