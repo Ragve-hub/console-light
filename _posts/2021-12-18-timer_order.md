@@ -1,18 +1,15 @@
 ---
-layout: post
-title: Отмена ордера по таймеру
-date: 2021-12-18 20:06:52
-tags: C#
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Отмена ордера по таймеру"
+date:   2021-12-18
+tags: [C#]
 ---
+
 
 На примере показана отмена лимитного ордера через 20 секунд, если он не not filled.
 
-<!--more-->
 
 
-```
+```C#
 using OpenQuant.API;
 
 public class MyStrategy : Strategy
