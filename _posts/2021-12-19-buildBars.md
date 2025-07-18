@@ -10,7 +10,7 @@ tags: [C#]
 Функция как альтернатива втроенной (BuildBarsFromTrades).
 
 
-```C#
+```c#
 
 using System;
 using System.Drawing;
