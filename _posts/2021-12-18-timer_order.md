@@ -9,7 +9,7 @@ tags: [C#]
 
 
 
-```C#
+```c#
 using OpenQuant.API;
 
 public class MyStrategy : Strategy
