@@ -1,26 +1,23 @@
 ---
-layout: post
-title: Волатильность 30/60/90 дней
-date: 2021-09-18 13:06:52
-tags: R
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Волатильность 30/60/90 дней"
+date:   2021-09-18
+tags: [R]
 ---
 
+
 Расчет n-дневной волатильности для сравнения и анализа будущих волнений на рынке.
-<!--more-->
 
 30 дней
 
-<img src="https://ragve.ru/images/real_30.png" alt="">
+<img src="https://ragve-hub.github.io/console-light/images/real_30.png" alt="">
 
 30-90 дней
 
-<img src="https://ragve.ru/images/real30-real90.png" alt="">
+<img src="https://ragve-hub.github.io/console-light/images/real30-real90.png" alt="">
 
 # Код
 
-```
+```r
 library(rusquant)
 
 dateFrom = '2005-01-01'
