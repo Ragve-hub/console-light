@@ -1,17 +1,16 @@
 ---
-layout: post
-title: Расчет кастом breadth индикаторов
-date: 2021-10-02 13:06:52
-tags: C#
-hidden: true
-excerpt_separator: <!--more-->
+title:  "Расчет кастом breadth индикаторов"
+date:   2021-10-02
+tags: [C#]
 ---
+
 Фрагмент кода, который вычисляет и рисует среднее значение цен закрытия MSFT и AAPL. Таким образом
 можно составлять свои графики advance/decline line, tick, new high, breadth.
 
-<!--more-->
 
-```
+
+```C#
+
 using System;
 using System.Drawing;
 using System.Collections;
