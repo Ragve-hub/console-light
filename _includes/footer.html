@@ -1,8 +1,13 @@
 <footer>
   {% if page.layout == "post" %}
-  <a href="{{ "/tags" | relative_url }}">Архив</a> 
+    {% assign tags = page.tags | join: "," | downcase %}
+    {% if tags contains "r" or tags contains "c#" %}
+      <p>Это пост с тегом R или C#</p>
+    {% else %}
+      <a href="{{ "/tags" | relative_url }}">Архив</a> 
+    {% endif %}
   {% elsif page.url == "/tags/" %}
-  <p>Спасибо, что читаете наши материалы</p>
+    <p>Спасибо, что читаете наши материалы</p>
   {% else %}
     {{ site.footer }}
   {% endif %}
