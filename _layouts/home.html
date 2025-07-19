@@ -13,7 +13,14 @@ layout: default
   {% for post in site.posts | sort: 'date' | reverse limit:3 %}
     <div>
       <time datetime="{{ post.date | date: date_format }}">[{{ post.date | date: date_format }}]</time>
+      {{ " " }}
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      {% if post.tags %}
+        {{ " " }}
+        {% for tag in post.tags %}
+          #{{ tag }}{% if forloop.last == false %} {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
   {% endfor %}
 {% endif %}
