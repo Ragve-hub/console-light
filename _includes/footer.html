@@ -2,7 +2,7 @@
   {% if page.layout == "post" %}
     {% assign tags = page.tags | join: "," | downcase %}
     {% if tags contains "r" or tags contains "c#" %}
-      <p>Это пост с тегом R или C#</p>
+      <a href="{{ "/Develop" | relative_url }}">Архив</a> 
     {% else %}
       <a href="{{ "/tags" | relative_url }}">Архив</a> 
     {% endif %}
