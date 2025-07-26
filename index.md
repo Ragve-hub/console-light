@@ -10,4 +10,8 @@ permalink: /
 [Основные шаги](https://ragve-hub.github.io/console-light/steps)
 
 Владельцам частных капиталов и семейных офисов мы предлагаем инвестиционные решения на базе алгоритмического фонда.
-<button id="theme-toggle">День/Ночь</button>
+
+
+<div>
+  <button id="theme-toggle">Переключить тему</button>
+</div>
