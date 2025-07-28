@@ -1,14 +1,16 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+https://fonts.googleapis.com/css?family=Literata
 
 
 
 
 
 /**
+* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
+* $base-font-family:     'Source Code Pro', monospace !default;
  * Style variables
  */
-$base-font-family:     'Source Code Pro', monospace !default;
+$base-font-family:     'Literata', monospace !default;
 $base-font-size:       12.5px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
